@@ -1,0 +1,8 @@
+Question: What was the most challenging part of this assignment?
+
+Answer: The most challenging part was setting up Vite. 
+After scaffolding Vite project it was hard to get it to work initially.
+DevTools and its Console helped a lot to troubleshoot the issue.
+Even though initial Vite setup was hard, it makes React application development easy.
+Now I really feel that I am working on React application using components.
+
