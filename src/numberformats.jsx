@@ -19,12 +19,10 @@ export function getNumberBase(format) {
 
 export function FormatSelector({ value, onChange }) {
     return (
-        <select className="selectStyle" value={value} onChange={onChange}>
-            {Object.values(NumberFormats).map((format) => (
-                <option key={format} value={format}>
-                    {format}
-                </option>
-            ))}
+        <select value={value} onChange={onChange}>
+            <option value={NumberFormats.Decimal}>{NumberFormats.Decimal}</option>
+            <option value={NumberFormats.Hexadecimal}>{NumberFormats.Hexadecimal}</option>
+            <option value={NumberFormats.Binary}>{NumberFormats.Binary}</option>
         </select>
     );
 }
